@@ -16,7 +16,7 @@ client.once('ready', async () => {
 		await webhook.send('Webhook test', {
 			username: 'some-usernameh',
 			avatarURL: 'https://i.imgur.com/wSTFkRM.png',
-			embeds: [embed],
+			
 		});
 	} catch (error) {
 		console.error('Error trying to send: ', error);
