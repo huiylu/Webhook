@@ -1,2 +1,0 @@
-username: Remind;
-content: "Colo"
