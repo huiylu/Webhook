@@ -14,7 +14,7 @@ client.once('ready', async () => {
 		const webhook = webhooks.first();
 
 		await webhook.send('Webhook test', {
-			username: 'some-username',
+			username: 'some-usernameh',
 			avatarURL: 'https://i.imgur.com/wSTFkRM.png',
 			embeds: [embed],
 		});
